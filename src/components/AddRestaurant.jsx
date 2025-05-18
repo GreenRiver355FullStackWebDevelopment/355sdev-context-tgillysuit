@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useRestaurants } from "../context/RestaurantContext"; // Imported this context
 
 function AddRestaurant() {
+  const { updateRestaurants } = useRestaurants(); // added this context
   const [formData, setFormData] = useState({
     name: "",
     address: "",

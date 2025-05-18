@@ -1,4 +1,4 @@
-import RestaurantsContainer from "./components/RestaurantsContainer";
+import RestaurantsContainer from "../components/RestaurantsContainer"; // Added this import for proper rendering
 
 function RestaurantSection() {
   return (
